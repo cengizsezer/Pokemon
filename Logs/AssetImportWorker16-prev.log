@@ -1,0 +1,268 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16125 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker16
+-projectPath
+C:/SBF/Pokemon
+-logFile
+Logs/AssetImportWorker16.log
+-srvPort
+62061
+Successfully changed project path to: C:/SBF/Pokemon
+C:/SBF/Pokemon
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32932] Host "[IP] 0.0.0.0 [Port] 0 [Flags] 2 [Guid] 3371864529 [EditorId] 3371864529 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I290HP6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [32932] Host "[IP] 0.0.0.0 [Port] 0 [Flags] 2 [Guid] 3371864529 [EditorId] 3371864529 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I290HP6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 143.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/SBF/Pokemon/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   31.0.15.1700
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004077 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 136.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.584 seconds
+Domain Reload Profiling:
+	ReloadAssembly (585ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (439ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (83ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (294ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (48ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (137ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005812 seconds.
+Multiple ADB server instances found, the following ADB server instance have been terminated due to being run from another SDK. Process paths: 
+C:\Program Files\Unity\Hub\Editor\2021.3.3f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platform-tools\adb.exe
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
+UnityEditor.Android.TargetScanWorker:DoScan (UnityEditor.DeploymentTargets.IDeploymentTargetsExtension,UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,System.Threading.CancellationToken)
+UnityEditor.Android.TargetScanWorker/<>c__DisplayClass8_0:<Scan>b__0 ()
+System.Threading.Tasks.Task:InnerInvoke ()
+System.Threading.Tasks.Task:Execute ()
+System.Threading.Tasks.Task:ExecutionContextCallback (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:ExecuteEntry (bool)
+System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
+System.Threading.ThreadPoolWorkQueue:Dispatch ()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\SBF\Pokemon\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\SBF\Pokemon\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 135.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.687 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1687ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (1370ms)
+			LoadAssemblies (242ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (763ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (439ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5934 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (7.3 MB). Loaded Objects now: 6380.
+Memory consumption went from 276.6 MB to 269.3 MB.
+Total: 9.656200 ms (FindLiveObjects: 0.984500 ms CreateObjectMapping: 0.805700 ms MarkObjects: 4.795700 ms  DeleteObjects: 3.068600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 428665.305069 seconds.
+  path: Assets/GAME/Model/Models/Dark Creatures Pack/King Cobra/Textures/FX-SpitSplatter-Impact-Green.tga
+  artifactKey: Guid(6506f91af4e3b334abb6696949af3f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GAME/Model/Models/Dark Creatures Pack/King Cobra/Textures/FX-SpitSplatter-Impact-Green.tga using Guid(6506f91af4e3b334abb6696949af3f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74413862743503f1cbca22ba40c0b192') in 0.187217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GAME/Model/Models/Monsters Ultimate Pack 01 Cute Series/Monsters Ultimate Pack 01 Cute Series/Spider Cute Series/FBX/Spider@Take Damage.FBX
+  artifactKey: Guid(0816082655429e648879818220c390b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GAME/Model/Models/Monsters Ultimate Pack 01 Cute Series/Monsters Ultimate Pack 01 Cute Series/Spider Cute Series/FBX/Spider@Take Damage.FBX using Guid(0816082655429e648879818220c390b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3cff601b5e8cf853d574fe06afcfb8') in 0.257810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/GAME/Model/Models/Monsters Ultimate Pack 01 Cute Series/Monsters Ultimate Pack 01 Cute Series/Spider Cute Series/Textures/Spider.psd
+  artifactKey: Guid(c01e82c22942d9b4c884ae4ae16ba095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GAME/Model/Models/Monsters Ultimate Pack 01 Cute Series/Monsters Ultimate Pack 01 Cute Series/Spider Cute Series/Textures/Spider.psd using Guid(c01e82c22942d9b4c884ae4ae16ba095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6fe7e082ceca7080741e0cd4c28681') in 0.021142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GAME/Model/Models/Monsters Ultimate Pack 01 Cute Series/Monsters Ultimate Pack 01 Cute Series/Spider King Cute Series/FBX/Spider King.FBX
+  artifactKey: Guid(d2be7501b2c5da34798024d07c8d2c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GAME/Model/Models/Monsters Ultimate Pack 01 Cute Series/Monsters Ultimate Pack 01 Cute Series/Spider King Cute Series/FBX/Spider King.FBX using Guid(d2be7501b2c5da34798024d07c8d2c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa4b1403b060101e65ff6c5f8e5cb3d') in 0.073085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GAME/Model/Models/Monsters Ultimate Pack 01 Cute Series/Monsters Ultimate Pack 01 Cute Series/Spider King Cute Series/FBX/Spider King@Take Damage.FBX
+  artifactKey: Guid(1c4965a146feee24180105722ddf5459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GAME/Model/Models/Monsters Ultimate Pack 01 Cute Series/Monsters Ultimate Pack 01 Cute Series/Spider King Cute Series/FBX/Spider King@Take Damage.FBX using Guid(1c4965a146feee24180105722ddf5459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4330ba48732786dd7e1d9f4e10e0cd6a') in 0.045438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GAME/Model/Models/Monsters Ultimate Pack 01 Cute Series/Monsters Ultimate Pack 01 Cute Series/Spider Cute Series/FBX/Spider.FBX
+  artifactKey: Guid(a6bb4a1e7614f0844999e5c6eb8ff1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GAME/Model/Models/Monsters Ultimate Pack 01 Cute Series/Monsters Ultimate Pack 01 Cute Series/Spider Cute Series/FBX/Spider.FBX using Guid(a6bb4a1e7614f0844999e5c6eb8ff1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d4b8d1283967de84b62a8931bd62b3') in 0.032669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/GAME/Model/Models/Monsters Ultimate Pack 01 Cute Series/Monsters Ultimate Pack 01 Cute Series/Spider Cute Series/FBX/Spider@Idle.FBX
+  artifactKey: Guid(ba62781696ad80842a790fb1ea071a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GAME/Model/Models/Monsters Ultimate Pack 01 Cute Series/Monsters Ultimate Pack 01 Cute Series/Spider Cute Series/FBX/Spider@Idle.FBX using Guid(ba62781696ad80842a790fb1ea071a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c172e8d94bd73c65ca54640de656bd7') in 0.036534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GAME/Model/Models/Monsters Ultimate Pack 01 Cute Series/Monsters Ultimate Pack 01 Cute Series/Spider Toxin Cute Series/FBX/Spider Toxin@Die.FBX
+  artifactKey: Guid(3cd4561901648e24d9afa7d426394879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GAME/Model/Models/Monsters Ultimate Pack 01 Cute Series/Monsters Ultimate Pack 01 Cute Series/Spider Toxin Cute Series/FBX/Spider Toxin@Die.FBX using Guid(3cd4561901648e24d9afa7d426394879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43e0d9a76abef6bc3257e0c705c1c87') in 0.039637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.799670 seconds.
+  path: Assets/GAME/Model/Models/Monsters Ultimate Pack 02 Cute Series/Monsters Ultimate Pack 02 Cute Series/Spike Cute Series/FBX/Spike@Walk Forward In Place.FBX
+  artifactKey: Guid(1fa2d8a8bdc120c41b963acfcf916acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GAME/Model/Models/Monsters Ultimate Pack 02 Cute Series/Monsters Ultimate Pack 02 Cute Series/Spike Cute Series/FBX/Spike@Walk Forward In Place.FBX using Guid(1fa2d8a8bdc120c41b963acfcf916acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3466ea74305253ce9dbf0919db4dfbd3') in 0.032838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GAME/Model/Models/Monsters Ultimate Pack 02 Cute Series/Monsters Ultimate Pack 02 Cute Series/Spike Cute Series/FBX/Spike@Take Damage.FBX
+  artifactKey: Guid(25f563d4e6b57de4e8fa9ae08b07785c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GAME/Model/Models/Monsters Ultimate Pack 02 Cute Series/Monsters Ultimate Pack 02 Cute Series/Spike Cute Series/FBX/Spike@Take Damage.FBX using Guid(25f563d4e6b57de4e8fa9ae08b07785c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c974c5c3c2b6753c2e5cc8bfe877549') in 0.035416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MarketAssets/3rdParty/Polygon Arsenal/Prefabs/Combat/Missiles/Spike/SpikeMissileYellow.prefab
+  artifactKey: Guid(ab009fe18787c7e49894fcaab8e32d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MarketAssets/3rdParty/Polygon Arsenal/Prefabs/Combat/Missiles/Spike/SpikeMissileYellow.prefab using Guid(ab009fe18787c7e49894fcaab8e32d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f40300b449e34918b68f39e49689fdb') in 0.037807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/GAME/Model/Models/Monsters Ultimate Pack 02 Cute Series/Monsters Ultimate Pack 02 Cute Series/Spike Cute Series/FBX/Spike@Die.FBX
+  artifactKey: Guid(814757d466beeb741bbfbd29a91a9e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GAME/Model/Models/Monsters Ultimate Pack 02 Cute Series/Monsters Ultimate Pack 02 Cute Series/Spike Cute Series/FBX/Spike@Die.FBX using Guid(814757d466beeb741bbfbd29a91a9e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6fc2c1d2069996b5d4189ef82694d2') in 0.039295 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
